@@ -21,6 +21,6 @@ public class XYZ
 		
 		String title=driver.getTitle();
 		System.out.println(title);;
-		
+		System.out.println(xyz)
 	}
 }
