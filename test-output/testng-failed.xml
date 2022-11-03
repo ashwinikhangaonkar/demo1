@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="basic_automation.Singletest1">
+        <methods>
+          <include name="BusinessLogic_one"/>
+          <include name="url"/>
+          <include name="closebrowser"/>
+          <include name="openbroser"/>
+          <include name="dltcookies"/>
+          <include name="dbconnectionclosed"/>
+          <include name="takescreenshot"/>
+          <include name="getcookies"/>
+          <include name="maximize"/>
+        </methods>
+      </class> <!-- basic_automation.Singletest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
